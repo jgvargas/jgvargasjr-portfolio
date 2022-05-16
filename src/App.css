@@ -7,3 +7,46 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.container {
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 85%;
+}
+
+nav {
+  background: var(--color-grey);
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: .5rem 0;
+}
+
+#nav-logo {
+  color: var(--color-blue);
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+nav ul {
+  display: flex;
+  
+}
+
+nav li {
+  margin-left: 1rem;
+  list-style-type: none;
+}
+
+nav a {
+  color: var(--color-blue);
+  text-decoration: none;
+  padding: .5rem;
+}
+
+nav a:hover{
+  color: #fff;
+}
