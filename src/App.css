@@ -1,0 +1,9 @@
+:root {
+  --color-blue: #61dafb;
+  --color-grey: #282c34;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
